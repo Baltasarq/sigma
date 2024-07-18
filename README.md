@@ -7,7 +7,7 @@
 
 ## Build
 
-No es necesario hacer nada, aparte de abrir `sigma.html`.
+No es necesario hacer nada, aparte de [abrir `sigma.html`](sigma.html).
 
 ## Licencia
 

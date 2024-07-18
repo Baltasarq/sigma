@@ -1,0 +1,52 @@
+﻿/* Sigma CSS */
+
+body {
+    width: 80%;
+    margin: 10%;
+    font-size: 10pt 
+}
+
+/* DIVs */
+
+#dvMenu {
+    float: left;
+    color: #063349;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+
+#dvLecturer {
+    margin: 20px;
+    background-color: lightgray
+}
+
+#dvTitle {
+    font-size: 12pt;
+    color: white;
+    background-color: #063349
+}
+
+#dvCourse {
+    margin: 20px;
+}
+
+#tblSubjects, #tblMarks {
+    width: 70%;
+    margin: 20px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center
+}
+
+.tblHeader {
+    color: white;
+    background-color: #063349
+}
+
+tr:hover {
+  background-color: lightgray;
+}

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Campus Docente</title>
+    <link rel="stylesheet" href="sigma.css">
+</head>
+<body>
+    <nav id="dvMenu">
+        <br>
+        <br>
+        <b>Actas</b>
+        <br><a href="#" onclick="window.location = 'sigma.html'">Seleccionar asignatura</a>
+        <br><a href="#" onclick="">Listado</a>
+        <br><a href="#" onclick="">Cerrar</a>
+        <br>
+        <br><b>Listado</b>
+        <br><a href="#" onclick="">Asignaturas</a>
+        <br><a href="#" onclick="">Alumnos</a>
+        <br>
+        <br>
+    </nav>
+    
+    <div id="dvLecturer">
+        <b>Docente</b>&nbsp;Baltasar García Perez-Schofield
+    </div>
+    
+    <div id="dvTitle">
+        <b>Asignatura</b>&nbsp;Programación 3
+    </div>
+    
+    <div id="dvCourse">
+        <select>
+            <option value="2023_24">Curso 2023/24</option>
+            <option value="2022_23">Curso 2022/23</option>
+            <option value="2021_22">Curso 2021/22</option>
+        </select>
+    </div>
+    
+    <table id="tblMarks">
+        <tr class="tblHeader">
+            <th>NIA</th>
+            <th>NIF</th>
+            <th>Apellidos</th>
+            <th>Nombre</th>
+            <th>Nota</th>
+        </tr>
+        <tr id="nia1559090">
+            <td>3559090</td><td>12234678</td><td>Con Chorizo</td><td>Pan</td><td><input type="number" min="0" max="10"></td>
+        <tr id="nia1559092">
+            <td>3559092</td><td>50987654</td><td>Rígido Tieso</td><td>Marcial</td><td><input type="number" min="0" max="10"></td>
+        </tr>
+        <tr id="nia1559094">
+            <td>3559094</td><td>23777555</td><td>Palotes Barras</td><td>Perico</td><td><input type="number" min="0" max="10"></td>
+        </tr>
+        <tr id="nia1559098">
+            <td>3559098</td><td>11340678</td><td>Bartólez Gutiérrez</td><td>Segismundo</td><td><input type="number" min="0" max="10"></td>
+        </tr>
+    </table>
+</body>
+</html>
